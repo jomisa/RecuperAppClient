@@ -24,23 +24,48 @@ and open the template in the editor.
                 right:0;
                 left:0;
             }
+            #botonMenu {
+                text-align: center;
+            }
+            input[type=submit] {
+    width: 20em;  height: 2em;
+}
         </style>
+        
         <div id="header">
-			<ul class="nav">
-                                <li>Menu de Opciones</li>
-				<li><a href="pacientes.html" style="color:#fafafa">Pacientes</a></li>
-				<li><a href="sintomas.html" style="color:#fafafa">Síntomas de los Pacientes</a></li>
-                                <li><a href="fisiologicos.html" style="color:#fafafa">Datos Fisiológicos de los Pacientes</a></li>
-				<li><a href="caminata.html" style="color:#fafafa">Caminatas de los Pacientes</a></li>
-				<li><a href="estadosAnimo.html" style="color:#fafafa">Estados de ánimo de los pacientes</a></li>
-                                
-				<li><a href="medicamentos.html" style="color:#fafafa">Asignar Medicamentos a Pacientes</a></li>
-                                <li><a href="listaSintomas.html" style="color:#fafafa">Lista de Síntomas generales</a></li>
-                                <li><a href="listaMedicamentos.html" style="color:#fafafa">Lista de Medicamentos</a></li>
-				<li><a href="listaSintomasMedicamentos.html" style="color:#fafafa">Lista de Síntomas de Medicamentos</a></li>
-				
-				<li><a href="index.xhtml" style="color:#fafafa">Cerrar sesión</a></li>
-			</ul>
-		</div>
+            <p id="botonMenu" style="color:#fafafa; font-family:roboto;"><strong>Menu de Opciones</strong></p>
+            <form action="pacientes.html" id="botonMenu">
+                <input type="submit" value="Pacientes" />
+            </form>
+            <form action="sintomas.html" id="botonMenu">
+                <input type="submit" value="Síntomas de los Pacientes" />
+            </form>
+            <form action="fisiologicos.html" id="botonMenu">
+                <input type="submit" value="Datos Fisiológicos de los Pacientes" />
+            </form>
+            <form action="caminata.html" id="botonMenu">
+                <input type="submit" value="Caminatas de los Pacientes" />
+            </form>
+            <form action="estadosAnimo.html" id="botonMenu">
+                <input type="submit" value="Estados de ánimo de los pacientes" />
+            </form>
+            
+            <form action="medicamentos.html" id="botonMenu">
+                <input type="submit" value="Asignar Medicamentos a Pacientes" />
+            </form>
+            <form action="listaSintomas.html" id="botonMenu">
+                <input type="submit" value="Lista de Síntomas generales" />
+            </form>
+            <form action="listaMedicamentos.html" id="botonMenu">
+                <input type="submit" value="Lista de Medicamentos" />
+            </form>
+            <form action="listaSintomasMedicamentos.html" id="botonMenu">
+                <input type="submit" value="Lista de Síntomas de Medicamentos" />
+            </form>
+            
+            <form action="index.xhtml" id="botonMenu">
+                <input type="submit" value="Cerrar sesión" />
+            </form>
+	</div>
     </body>
 </html>
