@@ -13,27 +13,33 @@ and open the template in the editor.
     <body id="body">
          <style>
             #body {
-                background-image:url(images/backgroundWeb.png);
+                background-image:url(images/background.png);
                 background-repeat:no-repeat;
                 background-size:cover;
             }
             #header {
                 position:absolute;
-                background-color: #424242;
-                top:35%;
+                background-color: #212121;
+                top:20%;
                 right:0;
                 left:0;
             }
             #botonMenu {
                 text-align: center;
+                color:#fafafa; 
+                font-family:roboto; 
+                font-weight:bold;
             }
             input[type=submit] {
-    width: 20em;  height: 2em;
-}
+                width: 20em;  height: 2em;
+                color:#212121; 
+                font-family:roboto; 
+                font-weight:bold;
+            }
         </style>
         
         <div id="header">
-            <p id="botonMenu" style="color:#fafafa; font-family:roboto;"><strong>Menu de Opciones</strong></p>
+            <p id="botonMenu"><strong>Menu de Opciones</strong></p>
             <form action="pacientes.html" id="botonMenu">
                 <input type="submit" value="Pacientes" />
             </form>
@@ -66,6 +72,7 @@ and open the template in the editor.
             <form action="index.xhtml" id="botonMenu">
                 <input type="submit" value="Cerrar sesión" />
             </form>
+            <p id="botonMenu"><strong></strong></p>
 	</div>
     </body>
 </html>
